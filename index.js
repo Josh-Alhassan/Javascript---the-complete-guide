@@ -7,5 +7,6 @@ appDiv.innerHTML = `<h1>JS Starter</h1>`;
 
 let currentResult = 0;
 
-currentResult = (currentResult + 10) * 3 / 2 - 1;
-console.log(currentResult, '');
+currentResult = ((currentResult + 10) * 3) / 2 - 1;
+let currentDescription = '(' + currentResult + ' * 10 ) * 3 / 2 - 1';
+console.log(currentResult, currentDescription);
