@@ -14,7 +14,9 @@ function add(num1, num2) {
 
 console.log(add(1, 2));
 console.log(add(5, 5));
-let currentResult = defaultResult; //copy of the const var above
+
+let currentResult = add(1, 3);
+currentResult = defaultResult; //copy of the const var above
 
 currentResult = ((currentResult + 10) * 3) / 2 - 1;
 // let currentDescription = '(' + defaultResult + ' * 10 ) * 3 / 2 - 1';
