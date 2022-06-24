@@ -9,5 +9,6 @@ const defaultResult = 0;
 let currentResult = defaultResult; //copy of the const var above
 
 currentResult = ((currentResult + 10) * 3) / 2 - 1;
-let currentDescription = '(' + defaultResult + ' * 10 ) * 3 / 2 - 1';
+// let currentDescription = '(' + defaultResult + ' * 10 ) * 3 / 2 - 1';
+let currentDescription = `( ${defaultResult} + 1 * 10 ) * 3 / 2 -1`;
 console.log(currentResult, currentDescription);
